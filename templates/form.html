@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tambah Jadwal</title>
+</head>
+<body>
+    <h2>Form Tambah Jadwal</h2>
+    <form method="POST">
+        Dosen: <input type="text" name="dosen" required><br>
+        Matkul: <input type="text" name="matkul" required><br>
+        Kelas: <input type="text" name="kelas" required><br>
+        Hari: 
+        <select name="hari">
+            <option>Senin</option>
+            <option>Selasa</option>
+            <option>Rabu</option>
+            <option>Kamis</option>
+            <option>Jumat</option>
+        </select><br>
+        Jam Mulai: <input type="time" name="jam_mulai" required><br>
+        Jam Selesai: <input type="time" name="jam_selesai" required><br>
+        Ruangan: <input type="text" name="ruangan" required><br>
+        <button type="submit">Simpan</button>
+    </form>
+</body>
+</html>
